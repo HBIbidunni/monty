@@ -1,16 +1,13 @@
 #include "monty.h"
-
 /**
- * _stack - changes direction of the linked list, so it becomes a stack
- *	(i.e., elements are added and removed from the top of the stack)
- *
- * @stack: stack
- * @line_number: line number in file
- */
-void _stack(stack_t **stack, unsigned int line_number)
+ * f_stack - prints the top
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
+*/
+void f_stack(stack_t **head, unsigned int counter)
 {
-	stack_mode = STACK_MODE;
-
-	(void) line_number;
-	(void) stack;
+	(void)head;
+	(void)counter;
+	bus.lifi = 0;
 }

@@ -86,6 +86,7 @@ In this project: all codes are compiled by using:
            $
 
 > All outputs must be printed on `stdout`
+
 > All error messages must be printed on `stderr`
 
 The rundown of the interpreter is the following:
@@ -108,4 +109,3 @@ To run the interpreter:
 ## Features (Opcodes)
 
 `Monty` executes the following opcodes:
-
